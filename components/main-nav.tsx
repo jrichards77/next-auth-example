@@ -58,6 +58,14 @@ export function MainNav() {
               Client Side
             </NavigationMenuLink>
           </NavigationMenuItem>
+          <NavigationMenuItem>
+            <NavigationMenuLink
+              href="/pd-calls"
+              className={navigationMenuTriggerStyle()}
+            >
+              Pipedrive
+            </NavigationMenuLink>
+          </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
     </div>
